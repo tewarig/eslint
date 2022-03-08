@@ -414,7 +414,7 @@ The config in `app/.eslintrc.json` defines the glob pattern `**/*Spec.js`. This 
 
 If a config is provided via the `--config` CLI option, the glob patterns in the config are relative to the current working directory rather than the base directory of the given config. For example, if `--config configs/.eslintrc.json` is present, the glob patterns in the config are relative to `.` rather than `./configs`.
 
-Glob patterns follows [minimatch syntax](https://github.com/isaacs/minimatch)
+Glob patterns follow [minimatch syntax](https://github.com/isaacs/minimatch)
 
 ### Specifying target files to linthttps://github.com/isaacs/minimatch
 
